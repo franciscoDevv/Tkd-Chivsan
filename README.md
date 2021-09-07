@@ -12,8 +12,6 @@ Este proyecto es una web para una escuela de Taekwondo, esta web, tendrá inform
 
 - JavaScript
 
-- Sass
-
 - Typer.js, AnimatedCSS, AOS.
 
 ## Paleta de Colores
@@ -29,4 +27,4 @@ Este proyecto es una web para una escuela de Taekwondo, esta web, tendrá inform
 ## Contacto
 
 Franciscoo#0001 Discord
-FrancisCode\_ Twitter
+[Twitter](https://twitter.com/FrancisCode_)
