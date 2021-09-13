@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Taekwondo Chivsan</title>
     <!-- LINK CSS -->
-    <link rel="stylesheet" href="src/css/main.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,16 +15,21 @@
     />
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Animated CSS -->
+         <link
+             rel="stylesheet"
+                 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+                   />
   </head>
   <body>
     <div class="container">
       <div class="navbar">
-        <img src="src/img/logo.png" class="logo" alt="Logo" height="80px" />
+        <img src="assets/img/logo.png" class="logo" alt="Logo" height="80px" />
 
         <ul>
           <li><a href="#">Inicio</a></li>
-          <li><a href="#">Acerca De</a></li>
-          <li><a href="#">Horarios</a></li>
+          <li><a href="#acercade">Acerca De</a></li>
+          <li><a href="#horarios">Horarios</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
       </div>
@@ -39,7 +44,7 @@
     </div>
     <div class="about">
       <div class="texto">
-        <div class="about2">
+        <div class="about2" id="acercade">
           <div
             style="
               margin: 80px;
@@ -47,12 +52,12 @@
               padding-right: 20px;
             "
           >
-            <p>
+            <p data-aos="fade-up">
               Escuela de Taekwondo enfocada en el área del combate. Muevete y
               patea el sedentarismo!
             </p>
           </div>
-          <div style="margin: 80px">
+          <div style="margin: 80px" data-aos="fade-up">
             <p>
               Formar Deportistas integrales en un entorno globalizado a través
               del Taekwondo con principios de Cortesía, Integridad,
@@ -64,10 +69,12 @@
         </div>
       </div>
     </div>
+    
+
     <div id="table" class="container2">
-      <br /><br /><br /><br /><br /><br />
+      <br id="horarios" /><br /><br /><br /><br /><br />
       <br /><br />
-      <table>
+      <table data-aos="fade-up">
         <thead>
           <tr>
             <td>Día</td>
@@ -93,7 +100,13 @@
         </tr>
       </table>
     </div>
+
+        
+    <!-- Carrusel -->
+    
+
     <!-- Script AOS -->
+    <script src="js/carrusel.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();

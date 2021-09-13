@@ -4,11 +4,19 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
 .container {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(5, 10, 5, 0.8), rgba(223, 46, 46, 0.3)),
-    url(../img/bg-image.png);
+  background-image: linear-gradient(rgba(5, 10, 5, 0.8), rgba(223, 46, 46, 0.3)), url(../assets/img/bg-image.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,21 +25,12 @@
 .container2 {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(5, 10, 5, 0.8), rgba(57, 62, 70, 0.4)),
-    url(../img/mensualidades.png);
+  background-image: linear-gradient(rgba(5, 10, 5, 0.8), rgba(57, 62, 70, 0.4)), url(../assets/img/mensualidades.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.container3 {
-  width: 100%;
-  height: 100vh;
-  /* bg-image*/
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .navbar {
   width: 80%;
   margin: auto;
@@ -79,6 +78,7 @@
   display: flex;
   align-items: center;
 }
+
 .eslogan {
   margin: auto;
 }
@@ -87,13 +87,9 @@
   text-align: center;
   color: #fff;
 }
+
 .main .eslogan h1 {
   font-family: "Poppins", sans-serif;
-}
-
-h1 {
-  text-align: center;
-  color: #fff;
 }
 
 .about {
@@ -138,71 +134,14 @@ tr:nth-child(even) {
 tr td {
   transition: 0.5s;
 }
+
 tr:hover td {
   background-color: #df2e2e;
   color: white;
   transition: 0.5s;
 }
 
+/* Carrusel */
+/* Fin carrusel */
 
-.carrusel {
-  margin: auto;
-  width: 100%;
-  height: 100vh;
-}
-
-ul, li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-ul.slider {
-  position: relative;
-  width: 800px;
-  height: 300px;
-}
-
-ul.slider li {
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 1;
-  width: inherit;
-  height: inherit;
-  transition: opacity .5s;
-}
-
-ul.slider li img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
-ul.slider li:first-child {
-  opacity: 1;
-}
-
-ul.slider li:target {
-  opacity: 1;
-}
-
-.menu {
-  text-align: center;
-  margin: 20px;
-}
-
-.menu li {
-  display: inline-block;
-  text-align: center;
-}
-
-.menu li a {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
-}
+/*# sourceMappingURL=main.css.map */
