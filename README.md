@@ -12,7 +12,9 @@ Este proyecto es una web para una escuela de Taekwondo, esta web, tendrá inform
 
 - JavaScript
 
-- Typer.js, AnimatedCSS, AOS.
+- Sass
+
+- AnimatedCSS, AOS.
 
 ## Paleta de Colores
 
