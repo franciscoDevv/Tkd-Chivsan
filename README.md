@@ -18,13 +18,11 @@ Este proyecto es una web para una escuela de Taekwondo, esta web, tendrá inform
 
 ## Paleta de Colores
 
-**Negro** #171717
-
-**Gris** #393E46
-
-**Rojo** #DF2E2E
-
-**Amarillo** #FFD523
+| Negro    | #171717 |
+|----------|---------|
+| Gris     | #393E46 |
+| Rojo     | #DF2E2E |
+| Amarillo | #FFD523 |
 
 ## Contacto
 
