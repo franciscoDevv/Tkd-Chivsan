@@ -6,6 +6,8 @@
     <title>Taekwondo Chivsan</title>
     <!-- LINK CSS -->
     <link rel="stylesheet" href="css/main.css" />
+    <!-- Whatsapp -->
+    <link rel="stylesheet" href="css/whatsapp.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +15,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Animated CSS -->
@@ -22,6 +26,10 @@
                    />
   </head>
   <body>
+    
+    <a href="https://api.whatsapp.com/send?phone=+56974532158&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los entrenamientos 😀" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
     <div class="container">
       <div class="navbar">
         <img src="assets/img/logo.png" class="logo" alt="Logo" height="80px" />
@@ -143,6 +151,18 @@
           <td>Técnico/Táctico Competitivo</td>
         </tr>
       </table>
+    </div>
+
+    <!-- Contacto -->
+
+    <div class="contact">
+      <form data-aos="fade-up" action="https://formspree.io/f/mvodlraa" method="POST">
+        <h1>CONTACTO</h1>
+        <input type="text" name="name" placeholder="Ingrese su nombre y apellido" id="">
+        <input type="text" name="_replyto" placeholder="Ingrese su correo" id="">
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+        <button type="submit">Enviar Mensaje</button>
+      </form>
     </div>
 
         
