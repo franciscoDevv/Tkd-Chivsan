@@ -237,15 +237,18 @@ tr:hover td {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 .contact form {
   display: flex;
   flex-flow: column;
   background-color: rgba(23, 23, 23, 0.8);
-  width: 40%;
+  width: 30%;
   height: 80%;
   padding: 20px;
   border-radius: 10px;
+  margin: 30px;
   justify-content: center;
   align-items: center;
 }
