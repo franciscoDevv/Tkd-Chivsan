@@ -134,15 +134,20 @@ td {
 thead {
   background-color: rgba(5, 10, 5, 0.9);
   border-bottom: solid 5px #0f362d;
+}
+
+.colorwhite {
   color: white;
 }
 
 tr:nth-child(even) {
   background-color: #ddd;
+  color: #171717;
 }
 
 tr td {
   transition: 0.5s;
+  color: #171717;
 }
 
 tr:hover td {
@@ -286,6 +291,60 @@ button {
 button:hover {
   transform: scale(1.05);
   box-shadow: #171717;
+}
+
+.footer {
+  height: auto;
+  background-color: #171717;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.preguntas {
+  margin: 80px;
+}
+.preguntas a {
+  margin: 20px 0;
+  text-decoration: none;
+  color: white;
+}
+.preguntas a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+body {
+  height: 100vh;
+  background-color: #171717;
+  color: white;
+}
+body .preguntas h3 {
+  margin-top: 30px;
+}
+body .preguntas p {
+  margin-top: 10px;
+}
+
+.float2 {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  top: 26px;
+  left: 26px;
+  background-color: #DF2E2E;
+  color: #FFF;
+  border-radius: 50px;
+  font-size: 30px;
+  transition: 0.6s;
+  z-index: 10000;
+}
+.floa2t:hover {
+  text-decoration: none;
+  color: #25d366;
+  transition: 0.6s;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
