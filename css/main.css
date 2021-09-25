@@ -13,6 +13,21 @@ h1 {
   color: #fff;
 }
 
+a svg:hover {
+  text-decoration: none !important;
+}
+
+svg {
+  height: 30px;
+  transition: 0.3s;
+  margin: 2px;
+}
+svg:hover {
+  color: rgba(228, 69, 69, 0.8);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -249,20 +264,21 @@ tr:hover td {
   display: flex;
   flex-flow: column;
   background-color: rgba(23, 23, 23, 0.8);
-  width: 30%;
-  height: 80%;
+  width: 35%;
+  height: 70vh;
   padding: 20px;
   border-radius: 10px;
   margin: 30px;
   justify-content: center;
   align-items: center;
 }
-.contact form input, .contact form textarea {
+.contact form input {
   border: none;
   resize: none;
   outline: none;
   padding: 15px;
   width: 80%;
+  height: 20%;
   margin: 20px;
   transition: all 300ms;
   border-bottom: 1px solid #171717;
@@ -270,7 +286,25 @@ tr:hover td {
   border-radius: 10px;
   color: white;
 }
-.contact form input:focus, .contact form textarea:focus {
+.contact form input:focus {
+  border-bottom-color: rgba(228, 69, 69, 0.8);
+}
+.contact form textarea {
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 15px;
+  width: 80%;
+  font-size: 13px;
+  height: 75%;
+  margin: 20px;
+  transition: all 300ms;
+  border-bottom: 1px solid #171717;
+  background-color: #171717;
+  border-radius: 10px;
+  color: white;
+}
+.contact form textarea:focus {
   border-bottom-color: rgba(228, 69, 69, 0.8);
 }
 
@@ -302,7 +336,9 @@ button:hover {
 }
 
 .preguntas {
-  margin: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 50px;
 }
 .preguntas a {
   margin: 20px 0;
@@ -313,6 +349,12 @@ button:hover {
   text-decoration: underline;
   cursor: pointer;
   transition: 0.6s;
+}
+
+.telefono {
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
 }
 
 body {
@@ -326,6 +368,19 @@ body .preguntas h3 {
 body .preguntas p {
   margin-top: 10px;
 }
+body .preguntas a:hover {
+  text-decoration: none;
+}
+body .preguntas a.gym {
+  color: rgba(228, 69, 69, 0.8);
+}
+
+.without {
+  color: #fff;
+}
+.without:hover {
+  color: #fff;
+}
 
 .float2 {
   position: fixed;
@@ -333,13 +388,15 @@ body .preguntas p {
   height: 45px;
   top: 26px;
   left: 26px;
-  background-color: #DF2E2E;
+  background-attachment: color #df2e2h;
   color: #FFF;
   border-radius: 50px;
+  text-align: center;
   font-size: 30px;
   transition: 0.6s;
   z-index: 10000;
 }
+
 .floa2t:hover {
   text-decoration: none;
   color: #25d366;

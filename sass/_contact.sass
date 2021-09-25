@@ -13,19 +13,36 @@
         display: flex
         flex-flow: column
         background-color: rgba(23, 23, 23, .8)
-        width: 30%
-        height: 80%
+        width: 35%
+        height: 70vh
         padding: 20px
         border-radius: 10px
         margin: 30px
         justify-content: center
         align-items: center
-        input, textarea
+        input
             border: none
             resize: none
             outline: none
             padding: 15px
             width: 80%
+            height: 20%
+            margin: 20px
+            transition: all 300ms
+            border-bottom: 1px solid rgba(23, 23, 23, 1)
+            background-color: #171717
+            border-radius: 10px
+            color: white
+            &:focus
+                border-bottom-color: rgba(228, 69, 69, 0.8)
+        textarea
+            border: none
+            resize: none
+            outline: none
+            padding: 15px
+            width: 80%
+            font-size: 13px
+            height: 75%
             margin: 20px
             transition: all 300ms
             border-bottom: 1px solid rgba(23, 23, 23, 1)
