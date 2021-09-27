@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://franciscode13.github.io/Tkd-Chivsan/sitemap.xml
