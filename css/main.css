@@ -132,6 +132,21 @@ svg:hover {
   margin: 0 4.5rem;
 }
 
+#dou {
+  margin: 80px;
+  border-right: 5px solid #ffd523;
+  padding-right: 20px;
+}
+
+#dou3 {
+  margin-top: 85px;
+  margin-left: 250px;
+}
+
+.z {
+  margin: 80px;
+}
+
 #table table {
   background-color: white;
   text-align: left;
@@ -402,6 +417,35 @@ body .preguntas a.gym {
   color: #25d366;
   transition: 0.6s;
   background-color: #fff;
+}
+
+@media (max-width: 790px) {
+  #dou {
+    margin: 80px;
+    border-bottom: 5px solid #ffd523;
+    border-right: none;
+    padding-right: none;
+    margin-bottom: 10px;
+  }
+  #dou p {
+    margin-bottom: 10px;
+  }
+
+  .about2 {
+    flex-direction: column;
+  }
+
+  #dou2 {
+    margin-bottom: 40px;
+  }
+
+  #dou3 {
+    margin-left: 100px;
+  }
+
+  .xd {
+    margin-top: 50px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
