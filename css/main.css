@@ -151,6 +151,10 @@ svg:hover {
   margin-top: 80px;
 }
 
+.stilo div {
+  margin: 50px;
+}
+
 #table table {
   background-color: white;
   text-align: left;
@@ -472,7 +476,35 @@ body .preguntas a.gym {
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* Some Code*/
+  #dou3 {
+    margin: 100px;
+  }
+
+  .stilo div {
+    margin: 100px;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+  .contact form {
+    width: 550px;
+  }
+  .contact iframe {
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+  .footer .preguntas {
+    margin: 5px 40px;
+  }
+
+  .float {
+    bottom: 40px;
+    left: 730px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
