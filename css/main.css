@@ -474,6 +474,10 @@ body .preguntas a.gym {
   .footer .preguntas {
     margin: 5px 40px;
   }
+
+  .flex-new {
+    margin: 10px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   #dou3 {
@@ -505,6 +509,24 @@ body .preguntas a.gym {
     bottom: 40px;
     left: 730px;
   }
+}
+.color-span {
+  color: #e44545;
+}
+
+.flex-new {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding: 5px;
+}
+.flex-new div {
+  text-align: center;
+}
+.flex-new div p {
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
