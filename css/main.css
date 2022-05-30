@@ -31,7 +31,7 @@ svg:hover {
 .container {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(5, 10, 5, 0.8), rgba(223, 46, 46, 0.3)), url(../assets/img/img6.jpg);
+  background-image: linear-gradient(rgba(5, 10, 5, 0.8), rgba(223, 46, 46, 0.3)), url(../assets/img/bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -258,7 +258,7 @@ tr:hover td {
 }
 
 .resaltado {
-  background-color: #e44545;
+  background-color: rgb(228, 69, 69);
   transition: background-color 0.8s;
 }
 
@@ -304,7 +304,7 @@ tr:hover td {
   height: 20%;
   margin: 20px;
   transition: all 300ms;
-  border-bottom: 1px solid #171717;
+  border-bottom: 1px solid rgb(23, 23, 23);
   background-color: #171717;
   border-radius: 10px;
   color: white;
@@ -322,7 +322,7 @@ tr:hover td {
   height: 75%;
   margin: 20px;
   transition: all 300ms;
-  border-bottom: 1px solid #171717;
+  border-bottom: 1px solid rgb(23, 23, 23);
   background-color: #171717;
   border-radius: 10px;
   color: white;
@@ -335,7 +335,7 @@ button {
   border: none;
   outline: none;
   padding: 15px;
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #e44545), color-stop(17%, rgba(228, 69, 69, 0.9)), color-stop(58%, rgba(228, 23, 23, 0.8)), color-stop(100%, rgba(228, 69, 69, 0.8)));
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgb(228, 69, 69)), color-stop(17%, rgba(228, 69, 69, 0.9)), color-stop(58%, rgba(228, 23, 23, 0.8)), color-stop(100%, rgba(228, 69, 69, 0.8)));
   border-radius: 10px;
   color: white;
   font-weight: lighter;
@@ -347,7 +347,7 @@ button {
 }
 button:hover {
   transform: scale(1.05);
-  box-shadow: #171717;
+  box-shadow: rgb(23, 23, 23);
 }
 
 .footer {
@@ -511,11 +511,11 @@ body .preguntas a.gym {
   }
 }
 .color-span {
-  color: #e44545;
+  color: rgb(228, 69, 69);
 }
 
 .flex-new {
-  display: flex;
+  display: none;
   justify-content: center;
   margin-top: 15px;
   background-color: rgba(0, 0, 0, 0.75);
