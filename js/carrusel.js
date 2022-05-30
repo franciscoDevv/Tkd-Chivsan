@@ -1,5 +1,5 @@
 addEventListener('DOMContentLoaded', () => {
-    const imagenes = ['assets/img/img14.jpg', 'assets/img/img13.jpg', 'assets/img/img12.png', 'assets/img/img4.png', 'assets/img/img5.png', 'assets/img/img6.jpg', 'assets/img/img7.jpg', 'assets/img/img9.jpg', 'assets/img/img10.jpg'];
+    const imagenes = ['assets/img/img14.jpg', 'assets/img/img13.jpg', 'assets/img/img6.jpg', 'assets/img/img4.png', 'assets/img/img5.png', 'assets/img/img6.jpg', 'assets/img/img7.jpg', 'assets/img/img9.jpg', 'assets/img/img10.jpg'];
     let i = 1;
     const img1 = document.querySelector('#img1');
     const img2 = document.querySelector('#img2');
