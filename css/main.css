@@ -478,6 +478,10 @@ body .preguntas a.gym {
   .flex-new {
     margin: 10px;
   }
+
+  .eventos {
+    flex-direction: column;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   #dou3 {
@@ -527,6 +531,55 @@ body .preguntas a.gym {
 }
 .flex-new div p {
   font-size: 10px;
+}
+
+.eventos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.eventos div {
+  width: 30%;
+  text-align: center;
+  margin: 40px;
+}
+.eventos div img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.resultados-text {
+  text-align: center;
+  margin-top: 5px;
+  color: rgba(228, 69, 69, 0.8);
+  text-decoration: underline;
+  transition: 0.4s;
+}
+.resultados-text:hover {
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.resultados {
+  text-align: center;
+}
+.resultados p {
+  width: 100%;
+}
+
+.new {
+  color: rgba(228, 69, 69, 0.8);
+}
+
+@media (max-width: 768px) {
+  .eventos {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .eventos div {
+    width: 75%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

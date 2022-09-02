@@ -1,7 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.taekwondochivsan.cl</loc>
-<lastmod>2022-02-07T16:08:46.838Z</lastmod>
+<lastmod>2022-09-02T15:14:51.145Z</lastmod>
 <priority>1.00</priority>
 </url>
 <url>
@@ -12,6 +12,11 @@
 <url>
 <loc>https://www.taekwondochivsan.cl/preguntas.html</loc>
 <lastmod>2022-02-07T16:08:46.838Z</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://www.taekwondchivsan.cl/eventos.html</loc>
+<lastmod>2022-09-02T15:14:51.145Z</lastmod>
 <priority>1.00</priority>
 </url>
 </urlset>
